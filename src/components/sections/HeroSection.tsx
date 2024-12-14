@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export const HeroSection = () => {
   const handleScheduleCall = () => {
-    window.open("YOUR_CALENDLY_URL_HERE", "_blank");
+    window.open("https://calendly.com/mohamedmojahid11/30min", "_blank");
   };
 
   return (
@@ -18,7 +18,7 @@ export const HeroSection = () => {
           From ideas to AI execution—
           <span className="text-brand">instantly</span>.
         </h1>
-        <p className="text-xl md:text-2xl text-white/80 max-w-3xl mx-auto mb-12 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+        <p className="text-xl md:text-2xl text-brand-dark/80 max-w-3xl mx-auto mb-12 animate-fade-up" style={{ animationDelay: "0.2s" }}>
           Transform your business with AI-powered solutions that streamline operations,
           boost efficiency, and drive growth.
         </p>
