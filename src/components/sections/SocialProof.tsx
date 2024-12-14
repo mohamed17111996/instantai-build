@@ -13,7 +13,7 @@ export const SocialProof = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-dark-100">
+    <section className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold heading-gradient text-center mb-16">
           Trusted by Industry Leaders
@@ -25,10 +25,10 @@ export const SocialProof = () => {
               className="glass-card p-8 animate-fade-up"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <p className="text-lg mb-6 text-white/90">{testimonial.quote}</p>
+              <p className="text-lg mb-6 text-black/90">{testimonial.quote}</p>
               <div>
-                <div className="font-semibold">{testimonial.author}</div>
-                <div className="text-white/60 text-sm">{testimonial.role}</div>
+                <div className="font-semibold text-black">{testimonial.author}</div>
+                <div className="text-black/60 text-sm">{testimonial.role}</div>
               </div>
             </div>
           ))}

@@ -29,10 +29,10 @@ export default {
           DEFAULT: "#9b87f5",
           dark: "#7E69AB",
         },
-        vanilla: {
-          DEFAULT: "#FEF7CD",
-          light: "#FFFDF2",
-          dark: "#F5EDB8",
+        background: {
+          DEFAULT: "#fffedf",
+          light: "#fffff2",
+          dark: "#f5f4d6",
         },
       },
       keyframes: {

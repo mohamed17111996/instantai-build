@@ -18,7 +18,7 @@ export const HeroSection = () => {
           From ideas to AI execution—
           <span className="text-brand">instantly</span>.
         </h1>
-        <p className="text-xl md:text-2xl text-brand-dark/80 max-w-3xl mx-auto mb-12 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+        <p className="text-xl md:text-2xl text-black/80 max-w-3xl mx-auto mb-12 animate-fade-up" style={{ animationDelay: "0.2s" }}>
           Transform your business with AI-powered solutions that streamline operations,
           boost efficiency, and drive growth.
         </p>

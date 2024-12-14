@@ -12,7 +12,7 @@ export const CTASection = () => {
         <h2 className="text-4xl font-bold heading-gradient mb-6 animate-fade-up">
           Ready to Transform Your Business?
         </h2>
-        <p className="text-brand-dark/80 mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+        <p className="text-black/80 mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
           Join industry leaders who have already revolutionized their operations
           with Instantaibuild.
         </p>
