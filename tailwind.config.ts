@@ -19,7 +19,16 @@ export default {
     },
     extend: {
       colors: {
-        brand: "#820052",
+        brand: {
+          DEFAULT: "#820052",
+          light: "#9b3073",
+          dark: "#6b0043",
+        },
+        purple: {
+          light: "#D6BCFA",
+          DEFAULT: "#9b87f5",
+          dark: "#7E69AB",
+        },
         dark: {
           DEFAULT: "#000000",
           100: "#1A1A1A",

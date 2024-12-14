@@ -2,6 +2,10 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 export const CTASection = () => {
+  const handleScheduleCall = () => {
+    window.open("YOUR_CALENDLY_URL_HERE", "_blank");
+  };
+
   return (
     <section className="py-20 px-4">
       <div className="max-w-4xl mx-auto text-center glass-card p-12">
@@ -14,10 +18,11 @@ export const CTASection = () => {
         </p>
         <Button
           size="lg"
-          className="bg-brand hover:bg-brand/90 text-white animate-fade-up"
+          className="bg-brand hover:bg-brand-light text-white animate-fade-up"
+          onClick={handleScheduleCall}
           style={{ animationDelay: "0.4s" }}
         >
-          Get Started Now <ArrowRight className="ml-2 h-4 w-4" />
+          Schedule a Call <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </div>
     </section>
