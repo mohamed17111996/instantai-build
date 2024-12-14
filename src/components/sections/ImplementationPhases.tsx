@@ -35,7 +35,7 @@ export const ImplementationPhases = () => {
               className="glass-card p-8 animate-fade-up relative"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <h3 className="text-xl font-semibold mb-4 text-purple-light">{phase.title}</h3>
+              <h3 className="text-xl font-semibold mb-4 text-brand-light">{phase.title}</h3>
               <p className="text-white/80 mb-6">{phase.description}</p>
               <ul className="space-y-3">
                 {phase.steps.map((step) => (
