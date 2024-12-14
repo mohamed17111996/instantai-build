@@ -30,9 +30,9 @@ export default {
           dark: "#7E69AB",
         },
         background: {
-          DEFAULT: "#fffedf",
-          light: "#fffff2",
-          dark: "#f5f4d6",
+          DEFAULT: "#000000",
+          light: "#1A1A1A",
+          dark: "#000000",
         },
       },
       keyframes: {

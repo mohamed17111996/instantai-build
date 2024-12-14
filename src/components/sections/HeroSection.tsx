@@ -10,7 +10,7 @@ export const HeroSection = () => {
     <section className="min-h-screen flex items-center justify-center px-4 py-20">
       <div className="max-w-6xl mx-auto text-center">
         <img
-          src="/lovable-uploads/53bfb00f-b56c-4d01-b517-c7e4f51dcc85.png"
+          src="/lovable-uploads/6fb9fa5f-1458-49a9-b432-9ab6a2ad7148.png"
           alt="Instantaibuild"
           className="h-16 mx-auto mb-12 animate-fade-in"
         />
@@ -18,7 +18,7 @@ export const HeroSection = () => {
           From ideas to AI execution—
           <span className="text-brand">instantly</span>.
         </h1>
-        <p className="text-xl md:text-2xl text-black/80 max-w-3xl mx-auto mb-12 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+        <p className="text-xl md:text-2xl text-white/80 max-w-3xl mx-auto mb-12 animate-fade-up" style={{ animationDelay: "0.2s" }}>
           Transform your business with AI-powered solutions that streamline operations,
           boost efficiency, and drive growth.
         </p>
